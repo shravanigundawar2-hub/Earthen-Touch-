@@ -8,21 +8,21 @@ const classes = [
     title: "Wheel Pottery",
     level: "Beginner",
     price: "₹1,000",
-    image: "https://images.pexels.com/photos/6611262/pexels-photo-6611262.jpeg",
+    image: "https://images.pexels.com/photos/6611262/pexels-photo-6611262.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Learn the fundamentals of centering, opening, and pulling clay on the potter's wheel."
   },
   {
     title: "Hand-Building Basics",
     level: "All Levels",
     price: "₹1,500",
-    image: "https://images.pexels.com/photos/6694755/pexels-photo-6694755.jpeg",
+    image: "https://images.pexels.com/photos/6694755/pexels-photo-6694755.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Explore pinch, coil, and slab techniques to create organic functional forms without a wheel."
   },
   {
     title: "Potter Workshop",
     level: "Intermediate",
     price: "₹3,000",
-    image: "https://images.pexels.com/photos/19015377/pexels-photo-19015377.jpeg",
+    image: "https://images.pexels.com/photos/19015377/pexels-photo-19015377.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Master the art of layering glazes, wax resist, and creating custom surface textures."
   }
 ];

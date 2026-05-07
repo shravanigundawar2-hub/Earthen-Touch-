@@ -1,0 +1,146 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&display=swap');
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+    --font-heading: "Cormorant Garamond", serif;
+    --font-sans: "Inter", sans-serif;
+    
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --color-card: var(--card);
+    --color-card-foreground: var(--card-foreground);
+    --color-popover: var(--popover);
+    --color-popover-foreground: var(--popover-foreground);
+    --color-primary: var(--primary);
+    --color-primary-foreground: var(--primary-foreground);
+    --color-secondary: var(--secondary);
+    --color-secondary-foreground: var(--secondary-foreground);
+    --color-muted: var(--muted);
+    --color-muted-foreground: var(--muted-foreground);
+    --color-accent: var(--accent);
+    --color-accent-foreground: var(--accent-foreground);
+    --color-destructive: var(--destructive);
+    --color-border: var(--border);
+    --color-input: var(--input);
+    --color-ring: var(--ring);
+    
+    --color-gold: #C5A059;
+    --color-terracotta: #B35C44;
+    --color-cream: #F9F7F0;
+    --color-charcoal: #2D2D2D;
+    --color-navy: #1B263B;
+
+    --radius-sm: calc(var(--radius) * 0.6);
+    --radius-md: calc(var(--radius) * 0.8);
+    --radius-lg: var(--radius);
+    --radius-xl: calc(var(--radius) * 1.4);
+    --radius-2xl: calc(var(--radius) * 1.8);
+    --radius-3xl: calc(var(--radius) * 2.2);
+    --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+    --background: #F9F7F0;
+    --foreground: #2D2D2D;
+    --card: #F9F7F0;
+    --card-foreground: #2D2D2D;
+    --popover: #F9F7F0;
+    --popover-foreground: #2D2D2D;
+    --primary: #B35C44; /* Terracotta as primary */
+    --primary-foreground: #FDFCF8;
+    --secondary: #C5A059; /* Gold as secondary */
+    --secondary-foreground: #2D2D2D;
+    --muted: #F3F1E9;
+    --muted-foreground: #6B6B6B;
+    --accent: #1B263B; /* Navy as accent */
+    --accent-foreground: #FDFCF8;
+    --destructive: #ef4444;
+    --border: #E5E1D3;
+    --input: #E5E1D3;
+    --ring: #C5A059;
+    --radius: 0rem; /* Sharp edges for elegant look */
+}
+
+.dark {
+    --background: #1A1A1A;
+    --foreground: #FDFCF8;
+    --card: #1A1A1A;
+    --card-foreground: #FDFCF8;
+    --popover: #1A1A1A;
+    --popover-foreground: #FDFCF8;
+    --primary: #B35C44;
+    --primary-foreground: #FDFCF8;
+    --secondary: #C5A059;
+    --secondary-foreground: #1A1A1A;
+    --muted: #2D2D2D;
+    --muted-foreground: #A1A1A1;
+    --accent: #C5A059;
+    --accent-foreground: #1A1A1A;
+    --destructive: #ef4444;
+    --border: #2D2D2D;
+    --input: #2D2D2D;
+    --ring: #C5A059;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  * {
+    @apply border-border outline-ring/50;
+    }
+  body {
+    @apply bg-background text-foreground font-sans;
+    }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+  
+  section {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 500px;
+  }
+
+  /* Don't use content-visibility on the first section though */
+  #home {
+    content-visibility: visible;
+  }
+}
+
+@layer utilities {
+  .will-change-transform {
+    will-change: transform;
+  }
+  
+  .will-change-opacity {
+    will-change: opacity;
+  }
+
+  .gpu-accelerated {
+    transform: translateZ(0);
+  }
+}
+
+.elegant-underline {
+  position: relative;
+}
+
+.elegant-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+}
+
+.elegant-underline:hover::after {
+  width: 100%;
+}

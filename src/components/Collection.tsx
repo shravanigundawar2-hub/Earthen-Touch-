@@ -6,7 +6,7 @@ const collection = [
   {
     name: "Rustic Off White Platter & Bowl Set",
     category: "Sets",
-    image: "https://images.pexels.com/photos/17225133/pexels-photo-17225133.jpeg"
+    image: "https://images.pexels.com/photos/17225133/pexels-photo-17225133.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     name: "Terracotta Serving Bowl",
@@ -16,42 +16,42 @@ const collection = [
   {
     name: "Speckled Tea Set",
     category: "Sets",
-    image: "https://images.pexels.com/photos/18273370/pexels-photo-18273370.jpeg"
+    image: "https://images.pexels.com/photos/18273370/pexels-photo-18273370.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     name: "Organic Stone Mug",
     category: "Tableware",
-    image: "https://images.pexels.com/photos/31452624/pexels-photo-31452624.jpeg"
+    image: "https://images.pexels.com/photos/31452624/pexels-photo-31452624.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     name: "Noir Breakfast Set",
     category: "Sets",
-    image: "https://images.pexels.com/photos/15683361/pexels-photo-15683361.jpeg"
+    image: "https://images.pexels.com/photos/15683361/pexels-photo-15683361.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     name: "Minimalist Pitcher",
     category: "Tableware",
-    image: "https://images.pexels.com/photos/11691547/pexels-photo-11691547.jpeg"
+    image: "https://images.pexels.com/photos/11691547/pexels-photo-11691547.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     name: "Hand-thrown Tea Bowl",
     category: "Tableware",
-    image: "https://images.pexels.com/photos/30225370/pexels-photo-30225370.jpeg"
+    image: "https://images.pexels.com/photos/30225370/pexels-photo-30225370.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     name: "Artisanal Vase Set",
     category: "Sets",
-    image: "https://images.pexels.com/photos/36897846/pexels-photo-36897846.jpeg"
+    image: "https://images.pexels.com/photos/36897846/pexels-photo-36897846.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     name: "Glazed Ceramic Pitcher",
     category: "Tableware",
-    image: "https://images.pexels.com/photos/32296615/pexels-photo-32296615.jpeg"
+    image: "https://images.pexels.com/photos/32296615/pexels-photo-32296615.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     name: "Sandstone Dinner Plate",
     category: "Tableware",
-    image: "https://images.pexels.com/photos/33661399/pexels-photo-33661399.jpeg"
+    image: "https://images.pexels.com/photos/33661399/pexels-photo-33661399.jpeg?auto=compress&cs=tinysrgb&w=600"
   }
 ];
 

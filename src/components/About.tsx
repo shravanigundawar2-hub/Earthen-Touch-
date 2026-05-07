@@ -14,7 +14,7 @@ export default function About() {
             className="aspect-[16/9] overflow-hidden max-w-2xl w-full md:justify-self-end will-change-transform"
           >
             <img 
-              src="https://images.pexels.com/photos/14341980/pexels-photo-14341980.jpeg" 
+              src="https://images.pexels.com/photos/14341980/pexels-photo-14341980.jpeg?auto=compress&cs=tinysrgb&w=800" 
               alt="Pottery wheel" 
               className="w-full h-full object-cover gpu-accelerated"
               referrerPolicy="no-referrer"
@@ -32,7 +32,7 @@ export default function About() {
             className="aspect-[16/9] overflow-hidden max-w-2xl w-full md:justify-self-start will-change-transform"
           >
             <img 
-              src="https://images.pexels.com/photos/8903259/pexels-photo-8903259.jpeg" 
+              src="https://images.pexels.com/photos/8903259/pexels-photo-8903259.jpeg?auto=compress&cs=tinysrgb&w=800" 
               alt="Potter hands" 
               className="w-full h-full object-cover gpu-accelerated"
               referrerPolicy="no-referrer"
@@ -55,7 +55,7 @@ export default function About() {
             className="aspect-[2/3] overflow-hidden max-w-md mx-auto will-change-transform"
           >
             <img 
-              src="https://images.pexels.com/photos/6611377/pexels-photo-6611377.jpeg" 
+              src="https://images.pexels.com/photos/6611377/pexels-photo-6611377.jpeg?auto=compress&cs=tinysrgb&w=800" 
               alt="Handcrafted vase" 
               className="w-full h-full object-cover gpu-accelerated"
               referrerPolicy="no-referrer"
@@ -96,7 +96,7 @@ export default function About() {
               className="aspect-[16/9] overflow-hidden max-w-xl mx-auto md:mx-0 md:-ml-12 md:mt-12 group will-change-transform"
             >
               <img 
-                src="https://images.pexels.com/photos/35669377/pexels-photo-35669377.jpeg" 
+                src="https://images.pexels.com/photos/35669377/pexels-photo-35669377.jpeg?auto=compress&cs=tinysrgb&w=800" 
                 alt="Pottery collection" 
                 className="w-full h-full object-cover gpu-accelerated"
                 referrerPolicy="no-referrer"

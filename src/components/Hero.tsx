@@ -12,7 +12,7 @@ export default function Hero() {
         className="absolute inset-0 z-0 will-change-transform"
       >
         <img 
-          src="https://images.pexels.com/photos/14341980/pexels-photo-14341980.jpeg" 
+          src="https://images.pexels.com/photos/14341980/pexels-photo-14341980.jpeg?auto=compress&cs=tinysrgb&w=1280"
           alt="Pottery Studio" 
           className="w-full h-full object-cover gpu-accelerated"
           referrerPolicy="no-referrer"
